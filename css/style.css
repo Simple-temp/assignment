@@ -83,7 +83,7 @@ header {
     background-size: cover;
     position: relative;
     padding-top: 13px;
-    height: 100vh;
+    height: auto;
 }
 
 .navbar-light .navbar-nav .nav-link.active {
@@ -155,7 +155,7 @@ header {
     height: 430px;
 }
 
-/* ============= Task =============== */
+/* ============= connect =============== */
 
 .task h2 {
     font-family: 'Space Grotesk';
@@ -415,7 +415,7 @@ ul li {
     }
 
     .connect-section {
-        margin-top: 220px;
+        margin-top: 100px;
     }
 
     .task {
@@ -457,6 +457,10 @@ ul li {
         top: 0;
         left: 10%;
         margin-top: 100px;
+    }
+
+    .connect-section {
+        margin-top: 40px;
     }
 
     .hero-right-inner img {
