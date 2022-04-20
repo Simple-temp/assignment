@@ -1,0 +1,528 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* ============= setup =============== */
+
+
+body {
+    background-color: #ffffff;
+}
+
+.row {
+    --bs-gutter-x: 0rem;
+}
+
+section {
+    padding: 40px 0;
+}
+
+
+/* ============= all button style =============== */
+
+
+.login-btn {
+    color: #8828FF;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 0 24px;
+    font-family: 'Space Grotesk';
+}
+
+.get-started-btn {
+    color: #8828FF;
+    border: 1.3px solid #8828FF;
+    padding: 4px 24px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 0 24px;
+    font-family: 'Space Grotesk';
+    background: transparent;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.start-btn {
+    background-color: #8828FF;
+    color: #fff;
+    border: 1.3px solid #8828FF;
+    padding: 4px 24px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 24px;
+    font-family: 'Space Grotesk';
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.try-btn {
+    color: #ffffff;
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 0 24px;
+    font-family: 'Space Grotesk';
+}
+
+/* ============= header =============== */
+
+header {
+    background-image: url("../img/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-top: 13px;
+    height: 100vh;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #8828FF;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #C08DFF;
+    margin: 0 14px;
+    font-size: 18px;
+    font-family: 'Space Grotesk';
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #C08DFF;
+}
+
+.navbar-nav {
+    padding-right: 160px;
+}
+
+.hero {
+    height: 550px;
+}
+
+.hero h1 {
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 55px;
+}
+
+.hero p {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 13px;
+    color: #fff;
+}
+
+.hero-right {
+    position: relative;
+}
+
+.hero-right .img {
+    right: 0;
+    position: absolute;
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-right: 24px;
+}
+
+.hero-right-inner {
+    position: absolute;
+    top: 0;
+    left: -20%;
+    margin-top: 210px;
+}
+
+.hero-right-inner img {
+    width: auto;
+    height: 430px;
+}
+
+/* ============= Task =============== */
+
+.task h2 {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #20184E;
+}
+
+.task p {
+    color: #666666;
+    margin-top: 23px;
+}
+
+.task-btn {
+    color: #8828FF;
+    border: none;
+    padding: 8px 24px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Space Grotesk';
+    background: transparent;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    background: #F8F2FF;
+}
+
+/* ============= sms =============== */
+
+.sms-section {
+    position: relative;
+} 
+
+.half-circle {
+    position: absolute;
+    right: 0;
+    top:-30%;
+}
+
+.sms-section .sms {
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+.sms-section h2 {
+    color: #20184E;
+}
+
+.sms-section p {
+    color: #666666;
+}
+
+/* ============= package =============== */
+
+.package {
+    background-image: url("../img/package-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 53px 0px;
+    height: auto;
+}
+
+.package h3 {
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.packages {
+    margin: 5px;
+}
+
+/* ============= card =============== */
+
+/* .card_item img {
+    width:auto;
+} */
+
+.control-img {
+    margin-top: 16px;
+    margin-right: 39px;
+}
+
+.control-img img {
+    margin: 0 6px;
+}
+
+/* ============= testimonial =============== */
+
+.testimonial-section {
+    background-image: url("../img/join-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 90px 0;
+    height: auto;
+}
+
+.testimonial-section h3 {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.testimonial-section p {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+
+/* ============= footer =============== */
+
+footer {
+    background-image: url("../img/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 90px 0;
+    height: auto;
+}
+
+.f-info {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #ADABB7;
+    margin: 22px 0;
+}
+
+.social-links img{
+    margin-right:33px;
+}
+
+ul {
+    padding-left: 0rem;
+}
+
+ul li {
+    list-style-type: none;
+    line-height: 50px;
+    color: #ADABB7;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* ============= responsive  =============== */
+
+@media (max-width:1200px) {
+
+    .navbar-nav {
+        padding-right: 20px;
+    }
+
+    .testimonial-section h3 {
+        font-size: 38px;
+    }
+
+}
+
+@media (max-width:1040px) {
+
+    .hero h1 {
+        font-size: 45px;
+    }
+
+    .navbar-nav {
+        padding-right: 10px;
+    }
+
+    .hero-right .img {
+        width: 400px;
+    }
+
+    .hero-right-inner {
+        position: absolute;
+        top: 0;
+        left: -10%;
+        margin-top: 170px;
+    }
+
+    .hero-right-inner img {
+        width: auto;
+        height: 330px;
+    }
+}
+
+@media (max-width:990px) {
+
+    .hero-left {
+        margin-top: 0 !important;
+    }
+
+    .hero h1 {
+        font-size: 35px;
+    }
+
+    .hero p {
+        font-size: 17px;
+    }
+
+    .navbar-nav {
+        padding-right: 10px;
+    }
+
+    .hero-right .img {
+        width: 300px;
+    }
+
+    .hero-right-inner {
+        position: absolute;
+        top: 0;
+        left: -10%;
+        margin-top: 120px;
+    }
+
+    .hero-right-inner img {
+        width: auto;
+        height: 230px;
+    }
+
+    .task {
+        padding-left: 14px;
+    }
+}
+
+@media (max-width:768px) {
+
+    .hero-right {
+        margin-top: 55px;
+    }
+
+    .hero-right-inner {
+        position: absolute;
+        top: 0;
+        left: 10%;
+        margin-top: 120px;
+    }
+
+    .connect-section {
+        margin-top: 220px;
+    }
+
+    .task {
+        margin-top: 30px;
+    }
+
+    .task h2 {
+        font-size: 30px;
+    }
+
+    .sms-box {
+        width: 100% !important;
+    }
+
+    .packages img {
+        width: 100%;
+    }
+
+    .package h3 {
+        font-size: 34px;
+    }
+
+    .group-img img {
+        width: 100% !important;
+    }
+
+    .footer-finish {
+        text-align: left;
+    }
+}
+
+@media (max-width:540px) {
+    .hero-right .img {
+        width: 250px;
+    }
+
+    .hero-right-inner {
+        position: absolute;
+        top: 0;
+        left: 10%;
+        margin-top: 100px;
+    }
+
+    .hero-right-inner img {
+        width: auto;
+        height: 230px;
+    }
+
+    .testimonial-section h3 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width:440px) {
+    .hero-right .img {
+        width: 220px;
+    }
+
+    .hero-right-inner {
+        position: absolute;
+        top: 0;
+        left: 10%;
+        margin-top: 80px;
+    }
+
+    .hero-right-inner img {
+        width: auto;
+        height: 170px;
+    }
+
+    .task p {
+        font-size: 14px;
+    }
+
+    .package h3 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width:340px) {
+    .hero-right .img {
+        width: 150px;
+    }
+
+    .try-btn {
+        font-size: 16px;
+        margin: 0 10px;
+    }
+
+    .start-btn {
+        margin-right: 4px;
+        font-size: 16px;
+    }
+
+    .hero-right-inner {
+        position: absolute;
+        top: 0;
+        left: 10%;
+        margin-top: 80px;
+    }
+
+    .hero-right-inner img {
+        width: auto;
+        height: 120px;
+    }
+
+    .task h2 {
+        font-size: 20px;
+    }
+}
